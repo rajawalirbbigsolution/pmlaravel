@@ -1,0 +1,2 @@
+<?php
+ namespace Laravel\Socialite\Facades; use Illuminate\Support\Facades\Facade; use Laravel\Socialite\Contracts\Factory; class Socialite extends Facade { protected static function getFacadeAccessor() { return Factory::class; } } 

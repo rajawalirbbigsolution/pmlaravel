@@ -1,0 +1,2 @@
+<?php
+ namespace League\OAuth1\Client\Signature; use League\OAuth1\Client\Credentials\ClientCredentialsInterface; use League\OAuth1\Client\Credentials\CredentialsInterface; interface SignatureInterface { public function __construct(ClientCredentialsInterface $clientCredentials); public function setCredentials(CredentialsInterface $credentials); public function method(); public function sign($uri, array $parameters = array(), $method = 'POST'); } 

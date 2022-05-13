@@ -1,0 +1,2 @@
+<?php
+ class Swift_Mime_IdGenerator implements Swift_IdGenerator { public function __construct($idRight) { $this->idRight = $idRight; } public function getIdRight() { return $this->idRight; } public function setIdRight($idRight) { $this->idRight = $idRight; } public function generateId() { $idLeft = bin2hex(random_bytes(16)); return $idLeft.'@'.$this->idRight; } } 

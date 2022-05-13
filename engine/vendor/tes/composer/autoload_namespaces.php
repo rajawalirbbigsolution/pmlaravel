@@ -1,0 +1,2 @@
+<?php
+ $vendorDir = dirname(dirname(__FILE__)); $baseDir = dirname($vendorDir); return array( 'Parsedown' => array($vendorDir . '/erusev/parsedown'), 'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'), 'Detection' => array($vendorDir . '/mobiledetect/mobiledetectlib/namespaced'), ); 

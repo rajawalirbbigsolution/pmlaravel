@@ -1,0 +1,2 @@
+<?php
+ namespace Laravel\Socialite\Contracts; interface User { public function getId(); public function getNickname(); public function getName(); public function getEmail(); public function getAvatar(); } 

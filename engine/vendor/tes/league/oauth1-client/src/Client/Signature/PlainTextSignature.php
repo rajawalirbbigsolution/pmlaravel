@@ -1,0 +1,2 @@
+<?php
+ namespace League\OAuth1\Client\Signature; class PlainTextSignature extends Signature implements SignatureInterface { public function method() { return 'PLAINTEXT'; } public function sign($uri, array $parameters = array(), $method = 'POST') { return $this->key(); } } 
